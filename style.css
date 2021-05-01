@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Poppins:wght@300;400&display=swap');
+
+
+:root {
+    --clr-accent : #374471;
+    --ff-poppins:  'Poppins', sans-serif;
+    --ff-jose : 'Josefin Sans', sans-serif;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: var(--ff-poppins);
+}
+
+main{
+    max-width: 1080px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.left, .right {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.left h3 {
+    font-family: var(--ff-jose);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.left p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.right{
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: end;
+}
+.right img {
+    width: 80%;
+    
+}
+
+nav {
+    /* background-color: blue; */
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.03);
+    padding: 25px 0px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--clr-accent);
+    margin-right: 20px;
+}
+
+.logo-container h3{
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+
+}
+
+button {
+    background-color: var(--clr-accent);
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+}
+
+.nav{
+    display: flex;
+    /* background-color: brown; */
+    max-width: 1080px;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px){
+    .container {
+        margin-top: 40px;
+    }
+
+    .right{
+        display: flex;
+        justify-content: start;
+        width: 50%;
+    }
+}
