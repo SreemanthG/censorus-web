@@ -18,10 +18,7 @@ p {
   font-family: var(--ff-poppins);
 }
 
-h3 {
-    font-family: var(--ff-poppins);
-    font-weight: 400;
-}
+
 
 main{
     max-width: 1080px;
@@ -89,11 +86,16 @@ h1 {
   font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 button {
   background-color: var(--clr-accent);
   border: none;
   color: white;
-  padding: 0.9rem 3rem;
+  padding: 0.9rem 2.5rem;
   border-radius: 25px;
   font-size: 18px;
 }
