@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+   
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Censorus</title>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo-container">
+                <div class="logo"></div>
+                <h3>Censorus</h3>
+            </div>
+
+            <button class="login-btn">Login</button>
+        </div>
+
+    </nav>
+    <main>
+        
+        <div class="container">
+               <div class="title-container">
+                   <h3>Add Custom words to block</h3>
+                   <i class="fas fa-plus-circle"></i>
+               </div>
+
+               <div class="words-container">
+                   <div class="word">
+                       <p>example1</p>
+                       <!-- <i class="fas fa-times"></i> -->
+                   </div>
+                   <div class="word">
+                    <p>example2</p>
+                    <!-- <i class="fas fa-times"></i> -->
+                </div>
+                <div class="word">
+                    <p>example3</p>
+                    <!-- <i class="fas fa-times"></i> -->
+                </div>
+                   
+                </div>
+
+                
+        </div>
+
+        <div class="popup-form hide">
+            <form class="popup">
+                <input class="word-input" type="text" value="">
+                <button class="add-word" type="submit">Add</button>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+
+</body>
+</html>
