@@ -17,7 +17,10 @@ p {
     font-family: var(--ff-poppins);
 }
 
-
+h3 {
+    font-family: var(--ff-poppins);
+    font-weight: 400;
+}
 
 main{
     max-width: 1080px;
