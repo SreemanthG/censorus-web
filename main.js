@@ -9,20 +9,17 @@ const body = document.querySelector("body")
 var wordsList = []
 
 addBtn.addEventListener("click", (e) => {
+  popupDiv.classList.remove("hide");
 
-  
-      
-  
-   popupDiv.classList.remove('hide')
-
-   body.style.backgroundColor = "#7389D5"
-  
+  body.style.backgroundColor = "#7389D5";
 });
 
-addWordBtn.addEventListener('click', (e) => {
-    e.preventDefault()
+addWordBtn.addEventListener("click", (e) => {
+  e.preventDefault();
 
-    const value = wordInput.value;
+  const value = wordInput.value;
+
+    // const value = wordInput.value;
     
     // WordContainer.innerHTML += `<div class="word" >
     //          <p>${value}</p>
